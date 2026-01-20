@@ -1,0 +1,23 @@
+{
+    "name": "Roman Spatha",
+    "description": "A longer (3-foot) sword, originally used by Roman cavalry who needed more reach to strike at infantry from horseback. It eventually replaced the Gladius as the standard infantry sword in the late empire.",
+    "image": "ipfs://bafybeicvsda5nyfpn7vphscatzqbe6nelhfov7gxxjjjx26oq2lpdegwui",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Roman"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        },
+        {
+            "trait_type": "ID",
+            "value": "6"
+        }
+    ]
+}

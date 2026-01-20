@@ -1,0 +1,23 @@
+{
+    "name": "Khopesh",
+    "description": "The iconic sickle-sword of the Egyptian army. Its curved, outer-edge blade was used for slashing, but the hook was also brutally effective at trapping an enemy's limb or hooking their shield to pull it away.",
+    "image": "ipfs://bafybeia4nbh7hzj5sq3homuususmsaeaygc5gvqvezmvt7gxaxrykyj6yi",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Egyptian"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "17.5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "ID",
+            "value": "3"
+        }
+    ]
+}

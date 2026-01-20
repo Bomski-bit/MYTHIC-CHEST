@@ -1,0 +1,23 @@
+{
+    "name": "Pugio",
+    "description": "The standard-issue dagger carried by all Roman soldiers. It was both a backup weapon for a desperate fight and a personal utility tool. It was famously the weapon used by the senators to assassinate Julius Caesar.",
+    "image": "ipfs://bafybeicwyibi6brdsa7frdtopuk6csndkk2325jtppbz2z6s6ub6hsptpy",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Roman"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "17.5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "ID",
+            "value": "2"
+        }
+    ]
+}

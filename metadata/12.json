@@ -1,0 +1,23 @@
+{
+    "name": "Sumarbrandr",
+    "description": "A magical sword belonging to Freyr, the god of fertility. It could fight all by itself, swinging through the air to cut down its master's foes. Freyr tragically gave this incredible weapon away to win the hand of the giantess Gerðr.",
+    "image": "ipfs://bafybeiejo74rth2qap7nmaz24r7xp4zg6lqt56uype3pzyfvtvvfz6yhoi",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Norse"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "2%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "ID",
+            "value": "12"
+        }
+    ]
+}

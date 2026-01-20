@@ -1,0 +1,23 @@
+{
+    "name": "Shield of Aeneas",
+    "description": "A full set of divine armor and weapons forged for the demigod hero Aeneas by the god Vulcan (at the request of Aeneas's mother, Venus). The shield was the most famous piece, depicting the entire future history and glory of Rome.",
+    "image": "ipfs://bafybeiamxig7j53ymjfhbvppirsapb6rzrqbrlsaaf4bxhloiqtg3pcxjq",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Roman"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "2%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "ID",
+            "value": "10"
+        }
+    ]
+}

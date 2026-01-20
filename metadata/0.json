@@ -1,0 +1,19 @@
+{
+    "name": "Mythic Chest",
+    "description": "A sealed Mythic Chest, pulsing with latent power. What legendary prize does it hold? This chest can be opened to reveal its contents.",
+    "image": "ipfs://bafybeiftzkbjfivdypoafcgf7dge4ilj3xunly36ns3tynax2fkl7sdpgy",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Chest"
+        },
+        {
+            "trait_type": "Status",
+            "value": "Locked"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Mythic"
+        }
+    ]
+}

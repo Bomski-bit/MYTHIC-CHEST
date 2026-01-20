@@ -1,0 +1,23 @@
+{
+    "name": "Battle Axe",
+    "description": "The Egyptian battle axe had a lighter, often crescent-shaped or epsilon-shaped bronze blade. It was a specialized weapon used by shock troops to cut through infantry and pierce bronze helmets.",
+    "image": "ipfs://bafybeiamqy4eey7hitvz4ep5pbg4gewgfimmrtr5zx6qwdpggbfhdcweci",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Egyptian"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        },
+        {
+            "trait_type": "ID",
+            "value": "7"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Mars' Spear",
+    "description": "The sacred spear of Mars, the god of war. It was kept in a shrine in Rome, and it was said that the spear would tremble or shake on its own to warn the Roman people of an impending war.",
+    "image": "ipfs://bafybeifxal2lfk2bc56isnfqed2lshvb7k7s2yyoan7k5igqiyg7b3bp2q",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Roman"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "0.5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "ID",
+            "value": "14"
+        }
+    ]
+}

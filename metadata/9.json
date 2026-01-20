@@ -1,0 +1,23 @@
+{
+    "name": "Heracles' Club",
+    "description": "While he used many weapons, Heracles's most iconic was a massive club he fashioned himself from a wild olive tree he pulled from the ground. It represented his raw, untamable strength and his triumph over nature.",
+    "image": "ipfs://bafybeicexnzqo37pnz7g5ajpvcn4xdobz4r56naoarny5vycammrikmzhi",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Greek"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "2%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "ID",
+            "value": "9"
+        }
+    ]
+}

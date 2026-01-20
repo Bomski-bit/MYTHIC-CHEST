@@ -1,0 +1,23 @@
+{
+    "name": "Peltast's Javelin",
+    "description": "Peltasts were light, unarmored skirmishers (named for their pelta shield) who used a set of light, 3-foot javelins. They would harass heavy hoplite formations, darting in to throw their javelins and retreating before the hoplites could charge.",
+    "image": "ipfs://bafybeieiituticrqrwvmmwpbdkh7a53zmt2gqzfc4dkvehkegkjzm6jhme",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Greek"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        },
+        {
+            "trait_type": "ID",
+            "value": "5"
+        }
+    ]
+}

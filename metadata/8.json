@@ -1,0 +1,23 @@
+{
+    "name": "Berserker's Greatsword",
+    "description": "While Berserker describes a warrior, their fighting style required a weapon that could cause maximum damage. A large, heavy sword (or axe) was their tool, used in a state of frenzied rage to smash through enemy shield walls.",
+    "image": "ipfs://bafybeiff3mxuxwtygqty6emefqwqkcb4erv2h6baio57ge7zwvcuqcc2qu",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Norse"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        },
+        {
+            "trait_type": "ID",
+            "value": "8"
+        }
+    ]
+}

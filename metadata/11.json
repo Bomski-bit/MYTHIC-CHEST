@@ -1,0 +1,23 @@
+{
+    "name": "Pharoah's Mace",
+    "description": "The Pharaoh was considered a god-king. Pharaohs like Narmer or Thutmose III are shown wielding a royal mace, held aloft as they prepare to smite the enemies of Egypt. This was a real weapon, but also a symbol of divine royal power.",
+    "image": "ipfs://bafybeigg2jtigo7ddya2ionbzumhxtwuom2yqadfez2rxcf4s66w3uzjeu",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Egyptian"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "2%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "ID",
+            "value": "11"
+        }
+    ]
+}

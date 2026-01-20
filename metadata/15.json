@@ -1,0 +1,23 @@
+{
+    "name": "Wepwawet",
+    "description": "Wepwawet, the Opener of the Ways, was a wolf-god of war who scouted ahead of the pharaoh's army. His sacred bow and arrows were said to clear the path of all enemies, ensuring victory for Egypt.",
+    "image": "ipfs://bafybeihuluuresbpj3blom43xgefy574a2fgjsgd7mxp3lku2rp2fd5r2m",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Egyptian"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "0.5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "ID",
+            "value": "15"
+        }
+    ]
+}

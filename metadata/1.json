@@ -1,0 +1,23 @@
+{
+    "name": "Kopis",
+    "description": "A heavy, forward-curving, single-edged hacking sword. It was a terrifying weapon, favored in some regions like Macedonia, designed to deliver powerful chopping blows that could cleave through armor.",
+    "image": "ipfs://bafybeieb7ikcr2nyxrmvtj5cptsk32xqlmbwc4xgw7y27p7cyc3yvsii2m",
+    "attributes": [
+        {
+            "trait_type": "Mythology",
+            "value": "Greek"
+        },
+        {
+            "trait_type": "Probability",
+            "value": "17.5%"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "ID",
+            "value": "1"
+        }
+    ]
+}
