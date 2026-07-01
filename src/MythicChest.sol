@@ -296,10 +296,10 @@ contract MythicChest is AccessControl, ReentrancyGuard, Pausable, VRFConsumerBas
 
         delete requestIdToRequest[requestId];
 
-        // Single External Call to Mint Prizes 
+        // Single External Call to Mint Prizes
         I_PRIZES.mintBatch(request.opener, distinctIds, distinctAmounts, "");
 
-        // Emit Events 
+        // Emit Events
         /// @notice We still emit individual events for the frontend/subgraph to track easily
         for (uint256 i = 0; i < uniquePrizesCount; ++i) {
             emit PrizeDropped(request.opener, distinctIds[i], distinctAmounts[i]);
