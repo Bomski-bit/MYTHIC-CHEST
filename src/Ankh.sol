@@ -1,16 +1,15 @@
 // SPDX-License-Identifier: MIT
 
-////////////////////////////////////////////////////////////////////////////////
-//                                                                            //
-//    PROJECT:    Mythic Chest                                                //
-//    CONTRACT:   Ankh.sol                                                    //
-//    AUTHOR:     Ogolo Boma                                                  //
-//    DATE:       2026                                                        //
-//                                                                            //
-//    DESCRIPTION:                                                            //
-//    The currency token for the Mythic Chest ecosystem.                      //
-//                                                                            //
-////////////////////////////////////////////////////////////////////////////////
+// Layout of Contract:
+// version
+// imports
+// interfaces, libraries, contracts
+// errors
+// Type declarations
+// State variables
+// Events
+// Modifiers
+// Functions
 
 pragma solidity ^0.8.24;
 

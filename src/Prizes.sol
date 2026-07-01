@@ -1,17 +1,16 @@
 // SPDX-License-Identifier: MIT
 
-////////////////////////////////////////////////////////////////////////////////
-//                                                                            //
-//    PROJECT:    Mythic Chest                                                //
-//    CONTRACT:   Prizes.sol                                                  //
-//    AUTHOR:     Ogolo Boma                                                  //
-//    DATE:       2026                                                        //
-//                                                                            //
-//    DESCRIPTION:                                                            //
-//    ERC1155 contract for managing Mythic Weapons as prizes.                 //
-//    Only the linked MythicChest contract can mint these tokens.             //
-//                                                                            //
-////////////////////////////////////////////////////////////////////////////////
+// Layout of Contract:
+// version
+// imports
+// interfaces, libraries, contracts
+// errors
+// Type declarations
+// State variables
+// Events
+// Modifiers
+// Functions
+
 pragma solidity ^0.8.24;
 
 import {ERC1155} from "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";

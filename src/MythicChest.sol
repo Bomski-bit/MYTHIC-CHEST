@@ -1,18 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-////////////////////////////////////////////////////////////////////////////////
-//                                                                            //
-//    PROJECT:    Mythic Chest                                                //
-//    CONTRACT:   MythicChest.sol                                             //
-//    AUTHOR:     Ogolo Boma                                                  //
-//    DATE:       2026                                                        //
-//                                                                            //
-//    DESCRIPTION:                                                            //
-//    Main controller for the game loop. Handles Chest purchases,             //
-//    Chainlink VRF requests, and Prize distribution.                         //
-//                                                                            //
-////////////////////////////////////////////////////////////////////////////////
-
 // Layout of Contract:
 // version
 // imports
@@ -275,7 +262,7 @@ contract MythicChest is AccessControl, ReentrancyGuard, Pausable, VRFConsumerBas
         ChestRequest memory request = requestIdToRequest[requestId];
         if (request.opener == address(0)) revert MythicChest__RequestNotFound();
 
-        // ==== STEP 1: Aggregate Results in Memory ====
+        // Aggregate Results in Memory
         /// @notice Size 17 because IDs are 1-indexed (index 0 is unused)
         uint256[17] memory prizeCounts;
         uint256 uniquePrizesCount = 0;
@@ -292,7 +279,7 @@ contract MythicChest is AccessControl, ReentrancyGuard, Pausable, VRFConsumerBas
             ++prizeCounts[prizeId];
         }
 
-        // ==== STEP 2: Build Arrays for mintBatch ====
+        // Build Arrays for mintBatch
         uint256[] memory distinctIds = new uint256[](uniquePrizesCount);
         uint256[] memory distinctAmounts = new uint256[](uniquePrizesCount);
 
@@ -309,10 +296,10 @@ contract MythicChest is AccessControl, ReentrancyGuard, Pausable, VRFConsumerBas
 
         delete requestIdToRequest[requestId];
 
-        // ==== STEP 3: Single External Call to Mint Prizes ====
+        // Single External Call to Mint Prizes 
         I_PRIZES.mintBatch(request.opener, distinctIds, distinctAmounts, "");
 
-        // ==== STEP 4: Emit Events ====
+        // Emit Events 
         /// @notice We still emit individual events for the frontend/subgraph to track easily
         for (uint256 i = 0; i < uniquePrizesCount; ++i) {
             emit PrizeDropped(request.opener, distinctIds[i], distinctAmounts[i]);

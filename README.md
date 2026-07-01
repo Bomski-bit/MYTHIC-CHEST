@@ -121,25 +121,33 @@ All items within a rarity tier are selected with **equal probability**.
 
 ---
 
-## 🧑‍💻 Developer Setup
+## 👨‍💻 Developer Setup
+
+### Prerequisites
+
+Make sure you have Foundry installed:
 
 ```bash
-git clone https://github.com/Bomski-bit/mythic-chest.git
-cd mythic-chest
-forge install
-forge build
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
 ```
 
-### Run Tests
+### Clone and build
 
 ```bash
+git clone --recurse-submodules https://github.com/Bomski-bit/MYTHIC-CHEST.git
+cd super-mart
+
+forge build
 forge test
 ```
 
-### Static Analysis
+### If you already cloned without submodules
 
 ```bash
-slither .
+git submodule update --init --recursive
+forge build
+forge test
 ```
 
 ---

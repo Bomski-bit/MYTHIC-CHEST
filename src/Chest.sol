@@ -1,22 +1,28 @@
 // SPDX-License-Identifier: MIT
 
-////////////////////////////////////////////////////////////////////////////////
-//                                                                            //
-//    PROJECT:    Mythic Chest                                                //
-//    CONTRACT:   Chest.sol                                                   //
-//    AUTHOR:     Ogolo Boma                                                  //
-//    DATE:       2026                                                        //
-//                                                                            //
-//    DESCRIPTION:                                                            //
-//    The ERC-1155 "Ticket" required to play the Mythic Chest game.           //
-//                                                                            //
-////////////////////////////////////////////////////////////////////////////////
+// Layout of Contract:
+// version
+// imports
+// interfaces, libraries, contracts
+// errors
+// Type declarations
+// State variables
+// Events
+// Modifiers
+// Functions
+
 pragma solidity ^0.8.24;
 
 import {ERC1155} from "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import {AccessControl} from "@openzeppelin/contracts/access/AccessControl.sol";
 import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
 
+/**
+ * @title Chest
+ * @author Ogolo Boma
+ * @notice The ERC1155 contract for the Mythic Chest ecosystem.
+ * @dev Implements AccessControl for secure minting rights and ERC1155 for multi-token standard.
+ */
 contract Chest is ERC1155, AccessControl {
     using Strings for uint256;
 
