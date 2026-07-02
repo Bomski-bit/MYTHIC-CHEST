@@ -17,6 +17,12 @@ import {ERC1155} from "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
 
+/**
+ * @title Prizes
+ * @author Ogolo Boma
+ * @notice The ERC1155 contract for the Mythic Chest ecosystem, representing various prizes.
+ * @dev Implements Ownable for administrative control and ERC1155 for multi-token standard.
+ */
 contract Prizes is ERC1155, Ownable {
     using Strings for uint256;
 

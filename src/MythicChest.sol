@@ -44,6 +44,12 @@ interface IPrizes is IERC1155 {
     function mintBatch(address to, uint256[] memory ids, uint256[] memory amounts, bytes memory data) external;
 }
 
+/**
+ * @title MythicChest
+ * @author Ogolo Boma
+ * @notice This contract allows users to buy and open chests, which yield random prizes.
+ *         It integrates with Chainlink VRF for randomness and uses ERC20 for payments.
+ */
 contract MythicChest is AccessControl, ReentrancyGuard, Pausable, VRFConsumerBaseV2Plus {
     using SafeERC20 for IERC20;
 
